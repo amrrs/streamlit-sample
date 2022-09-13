@@ -215,6 +215,3 @@ close_MA = close_MA[close_MA.close_price7 > 20]
 
 df_3 = pd.merge(volume_MA, close_MA, on='SC_NAME', how='inner')
 df_3
-
-
-streamlit run app.py & npx localtunnel --port 8501
